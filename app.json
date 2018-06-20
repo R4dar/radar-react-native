@@ -1,5 +1,18 @@
 {
   "expo": {
-    "sdkVersion": "27.0.0"
-  }
+    "name": "Radar",
+    "slug": "radar",
+    "sdkVersion": "27.0.0",
+    "privacy": "public",
+    "icon": "./icons/logo.png",
+    "version": "0.0.1",
+    "ios": {
+      "bundleIdentifier": "br.org.foradoeixo.radar.react"
+    },
+    "android": {
+      "package": "br.org.foradoeixo.radar.react"
+    },
+    "updates"{
+      "fallbackToCacheTimeout": "0"
+    }
 }
