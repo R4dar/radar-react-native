@@ -13,7 +13,7 @@
       "package": "br.org.foradoeixo.radar.react"
     },
     "updates": {
-      "fallbackToCacheTimeout": "0"
+      "fallbackToCacheTimeout": 0
     },
     "androidStatusBar": {
       "barStyle": "dark-content",
