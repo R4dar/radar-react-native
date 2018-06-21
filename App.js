@@ -7,7 +7,6 @@ export default class Radar extends React.Component {
     return (
       <WebView
         source={{uri: 'https://radar.redelivre.org/'}}
-        style={{marginTop: 20}}
       />
     );
   }
