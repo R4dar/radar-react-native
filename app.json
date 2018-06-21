@@ -23,6 +23,14 @@
       "image": "./assets/imgs/splash.png",
       "backgroundColor": "#9c5ed1",
       "resizeMode": "cover"
-    }
+    },
+    "permissions": [
+      "ACCESS_COARSE_LOCATION",
+      "ACCESS_FINE_LOCATION",
+      "CAMERA",
+      "MANAGE_DOCUMENTS",
+      "READ_EXTERNAL_STORAGE",
+      "READ_INTERNAL_STORAGE"
+    ]
   }
 } 
