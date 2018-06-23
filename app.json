@@ -10,27 +10,27 @@
       "bundleIdentifier": "br.org.foradoeixo.radar.react"
     },
     "android": {
-      "package": "br.org.foradoeixo.radar.react"
+      "package": "br.org.foradoeixo.radar.react",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "MANAGE_DOCUMENTS",
+        "READ_EXTERNAL_STORAGE",
+        "READ_INTERNAL_STORAGE"
+      ]
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
     "androidStatusBar": {
-      "barStyle": "dark-content",
+      "barStyle": "light-content",
       "backgroundColor": "#672f79"
     },
     "splash": {
       "image": "./assets/imgs/splash.png",
       "backgroundColor": "#9c5ed1",
       "resizeMode": "cover"
-    },
-    "permissions": [
-      "ACCESS_COARSE_LOCATION",
-      "ACCESS_FINE_LOCATION",
-      "CAMERA",
-      "MANAGE_DOCUMENTS",
-      "READ_EXTERNAL_STORAGE",
-      "READ_INTERNAL_STORAGE"
-    ]
+    }
   }
 } 
