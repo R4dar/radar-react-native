@@ -7,17 +7,20 @@ import Expo from 'expo';
 const { Location, Permissions } = Expo;
 
 export default class Radar extends React.Component {
-  render() {
-
+  render() {;
     const getPermisions = async () => {
-      await Promise.all([
+      const permisions = [
         Permissions.NOTIFICATIONS,
         Permissions.USER_FACING_NOTIFICATIONS,
         Permissions.LOCATION,
         Permissions.CAMERA,
         Permissions.AUDIO_RECORDING,
         Permissions.CAMERA_ROLL
-      ].map(permision => Permissions.askAsync(permision)))
+      ]
+
+      for (p in permisions) {
+        await Permissions.askAsync(permisions[p])
+      }
     }
 
     getPermisions()
