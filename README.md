@@ -1,3 +1,15 @@
+# radar-react-native
+
+This is a simple webview wrapper for a tuned version of webogram https://github.com/R4dar/web
+
+![GitHub](https://img.shields.io/github/license/ForaDoEixo/SLURP.svg)
+[![chatroom icon](https://patrolavia.github.io/telegram-badge/chat.png)](https://t.me/joinchat/AEg1X1NZqgligtfGV7x3Og)
+
+# Screenshot
+![Screenshot](./screenshots/0.png)
+![Screenshot](./screenshots/1.png)
+
+
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
